@@ -23,25 +23,25 @@
 #     print("not elisble for the vote")
 
 
-# n = int(input("enter your number:"))
-# if n%2==0:
-#     print("even number")
-# elif n%2!=0:
-#     print("odd number")
-#
-# while True:
-#     age = int(input("Enter your age: "))
-#     if age < 0:
-#         print("Age cannot be negative. Try again.")
-#         continue
-#     if age == 18:
-#         print("Is eligible for vote")
-#     elif age > 18:
-#         print("Eligible for vote")
-#     else:
-#         print("Not eligible for the vote")
-#     break  # Exit the loop after valid input and response
-#
-#
+n = int(input("enter your number:"))
+if n%2==0:
+    print("even number")
+elif n%2!=0:
+    print("odd number")
+
+while True:
+    age = int(input("Enter your age: "))
+    if age < 0:
+        print("Age cannot be negative. Try again.")
+        continue
+    if age == 18:
+        print("Is eligible for vote")
+    elif age > 18:
+        print("Eligible for vote")
+    else:
+        print("Not eligible for the vote")
+    break  # Exit the loop after valid input and response
+
+
 
 
